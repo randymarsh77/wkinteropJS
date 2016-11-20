@@ -1,5 +1,5 @@
 # wkinteropJS
-JS counterpart to [wkinterop](https://github.com/randymarsh77/wkinterop), a Swift package for talking to `WKWebViews`.
+JS counterpart to [wkinterop](https://github.com/randymarsh77/wkinterop), a Swift package for talking to `WKWebViews`. Install with `npm install wkinterop`.
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
@@ -11,7 +11,7 @@ JS counterpart to [wkinterop](https://github.com/randymarsh77/wkinterop), a Swif
 
 ## Usage
 
-Given that we are in the context of a WKWebView created using `WKInterop`, we can use:
+Given that we are in the context of a WKWebView created using `WKInterop` (see [Swift Example](https://github.com/randymarsh77/wkinterop/readme#example)), we can use:
 
 - `registerEventHandler = (route, handler) => { ... }`
 - `registerRequestHandler = (route, handler) => { ... }`
