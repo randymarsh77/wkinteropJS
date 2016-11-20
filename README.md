@@ -1,6 +1,8 @@
 # wkinteropJS
 JS counterpart to [wkinterop](https://github.com/randymarsh77/wkinterop), a Swift package for talking to `WKWebViews`.
 
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+
 ## Overview
 
 `WKWebView` provides an api for executing JS code, and recieving messages from JS running in the view's execution environment. However, any nontrivial amount of communication requires boiler plate interop code. Then, there are other considerations like asynchronousity and cancellation.
@@ -57,7 +59,7 @@ JS is the most cross platform accessible language. However, you might not want t
 
 Ok, so... cross platform, but... `WKWebView` and Swift? Alright, you got me. Platforms besides macOS and iOS would need a compatible reciever, and this library would need some additional abstraction and environment detection. The potential is there, but I'm starting out with some platform contraints.
 
-## Roadmap
+## Roadmap <a name="roadmap"></a>
 
 These are a few items I imagine I'll need to address in the near future.
 
