@@ -1,6 +1,6 @@
 {
   "name": "wkinterop",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "JS counterpart to https://github.com/randymarsh77/wkinterop",
   "main": "wkinterop.js",
   "files": [
