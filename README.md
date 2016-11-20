@@ -11,7 +11,7 @@ JS counterpart to [wkinterop](https://github.com/randymarsh77/wkinterop), a Swif
 
 ## Usage
 
-Given that we are in the context of a WKWebView created using `WKInterop` (see [Swift Example](https://github.com/randymarsh77/wkinterop/readme#example)), we can use:
+Given that we are in the context of a WKWebView created using `WKInterop` (see [Swift Example](https://github.com/randymarsh77/wkinterop#example)), we can use:
 
 - `registerEventHandler = (route, handler) => { ... }`
 - `registerRequestHandler = (route, handler) => { ... }`
