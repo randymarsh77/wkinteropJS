@@ -2,6 +2,7 @@
 JS counterpart to [wkinterop](https://github.com/randymarsh77/wkinterop), a Swift package for talking to `WKWebViews`. Install with `npm install wkinterop`.
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+[![codebeat badge](https://codebeat.co/badges/f52f1cb5-6a61-4490-b59f-e4cc57f7f2a7)](https://codebeat.co/projects/github-com-randymarsh77-wkinteropjs)
 
 ## Overview
 
