@@ -2,15 +2,24 @@
   "name": "wkinterop",
   "version": "1.0.3",
   "description": "JS counterpart to https://github.com/randymarsh77/wkinterop",
-  "main": "wkinterop.js",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "files": [
-    "wkinterop.js",
     "dist/"
   ],
   "scripts": {
-    "test": "echo \"No tests!\" && exit 0",
-    "lint": "eslint --ext=js src",
-    "build": "rimraf dist && npm run lint && NODE_ENV=production webpack -p"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
@@ -32,22 +41,12 @@
   },
   "homepage": "https://github.com/randymarsh77/wkinteropJS#readme",
   "dependencies": {
-    "core-decorators": "^0.14.0",
-    "uuid": "^3.0.0"
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-core": "^6.18.2",
-    "babel-eslint": "^7.1.1",
-    "babel-loader": "^6.2.8",
-    "babel-plugin-transform-decorators-legacy": "^1.3.4",
-    "babel-plugin-transform-object-rest-spread": "^6.19.0",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-preset-stage-1": "^6.16.0",
-    "eslint": "^3.10.2",
-    "eslint-config-airbnb-base": "^10.0.1",
-    "eslint-plugin-import": "^2.2.0",
-    "rimraf": "^2.5.4",
-    "webpack": "^1.13.3"
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.0.0"
   }
 }
